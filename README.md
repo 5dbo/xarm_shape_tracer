@@ -1,11 +1,11 @@
 Usage Instructions
  
 # Build
-cd ~/dev_ws
-colcon build --packages-select xarm_shape_tracer
-source install/setup.bash
+cd ~/dev_ws  
+colcon build --packages-select xarm_shape_tracer  
+source install/setup.bash  
 
-# Launch 
+# Launch  
 
 ros2 launch xarm_shape_tracer trace_shapes.launch.py
 
