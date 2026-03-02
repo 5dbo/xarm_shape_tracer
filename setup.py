@@ -23,7 +23,9 @@ setup(
     maintainer_email='your.email@example.com',
     description='Trace 2D shapes with xArm7 robot',
     license='Apache-2.0',
-    tests_require=['pytest'],
+    extras_require={
+    'test': ['pytest'],
+    },
     entry_points={
         'console_scripts': [
             'shape_tracer = xarm_shape_tracer.shape_tracer_node:main',
